@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d36f73f2-c591-47ae-87d7-18868e31884c" name="Default" comment="Removed main method">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="d36f73f2-c591-47ae-87d7-18868e31884c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/MinRotatedSortedArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/assignments/MagicIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/assignments/SingleElement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/Anagram.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/Base64Encoding.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/BinarySearch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/CollectionExploration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/FizzBuzz.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/HashMapIterator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/HourGlass.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/LinkedList$Node.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/LinkedList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/MajorityElement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/MarkToy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/PlusOneInteger.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/RansomNote.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/RemoveValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/ScannerReader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/SelectionSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/Solution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/StringFirstMatch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/StringReversal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/Triplets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/WordPattern.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/pratice/code/_2DArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/DominantIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/DuplicateNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/FirstNonRepeatingChar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/KthLargest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/NthDigit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/Palindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/PivotIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/RepeatElement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/RotateImage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/SearchRotatedSorted.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/StringDifference.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/Sudoko.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/WordBreak.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/WordBreakCopy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/production/coding-interview-prep/com/heapspace/solutions/leetcode/_3Sum.class" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +67,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -244,6 +284,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568477544729</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added gitignore">
+      <created>1568478055709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568478055710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -284,7 +332,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Removed main method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed main method" />
+    <MESSAGE value="Added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -319,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
