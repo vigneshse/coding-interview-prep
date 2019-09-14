@@ -12,7 +12,6 @@ public class SearchRotatedSorted {
             return nums[0] == target ? 0 : -1;
 
         int pivot = searchPivot(nums);
-        System.out.println("pivot" + pivot);
 
         if (pivot < 0) {
             return binarySearch(nums, target);
@@ -22,14 +21,12 @@ public class SearchRotatedSorted {
             int res = -1;
             if (target <= arr2[arr2.length - 1]) {
                 res = binarySearch(arr2, target);
-                System.out.println("arr2 find" + res);
                 if(res>=0) {
                     res += arr1.length;
                 }
 
             } else {
                 res = binarySearch(arr1, target);
-                System.out.println("arr1 find" + res);
             }
             return res;
         }
@@ -37,12 +34,10 @@ public class SearchRotatedSorted {
 
     private int binarySearch(int[] nums, int x) {
         int begin = 0, end = nums.length - 1, mid;
-        System.out.println("nums.length" + nums.length);
+       
         while (begin <= end) {
             mid = (begin + end) / 2;
-            System.out.println("mid" + mid);
-            System.out.println("nums[mid]" + nums[mid]);
-
+          
             if (nums[mid] == x) {
 
                 return mid;
