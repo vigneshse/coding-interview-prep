@@ -74,10 +74,4 @@ public class SearchRotatedSorted {
         }
         return -1;
     }
-
-    public static void main(String args[]) {
-        SearchRotatedSorted srs = new SearchRotatedSorted();
-        int[] input = new int[]{4,1};
-        System.out.println("Result: " + srs.search(input, 4));
-    }
 }
