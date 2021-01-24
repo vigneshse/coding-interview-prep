@@ -1,34 +1,28 @@
 package com.heapspace.solutions.leetcode;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TopKFrequentElement {
 
-    public static List<Integer> topKFrequent(int[] nums, int k) {
+    public int[] topKFrequent(int[] nums, int k) {
 
-        Map<Integer, Integer> count = new HashMap<>();
+        Map<Integer, Integer> freqMap = new HashMap<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            count.put(nums[i], count.getOrDefault(nums[i], 0) + 1);
+        for (int num : nums) {
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
         }
 
-        PriorityQueue<Integer> heap = new PriorityQueue<>((n1, n2) -> count.get(n1) - count.get(n2));
+        List<Integer> topK = freqMap
+                .keySet()
+                .stream()
+                .sorted((w1, w2) -> freqMap.get(w2) - freqMap.get(w1))
+                .collect(Collectors.toList());
 
-        for (int n : count.keySet()) {
-            heap.add(n);
-            if (heap.size() > k) {
-                heap.poll();
-            }
-        }
-
-        List<Integer> topK = new LinkedList();
-        while (!heap.isEmpty())
-            topK.add(heap.poll());
-        Collections.reverse(topK);
-        return topK;
+        return topK.subList(0 , k).stream().mapToInt(Integer::intValue).toArray();
     }
 
-    public static void main(String aregs[]) {
-        System.out.println(topKFrequent(new int[]{1, 2, 3, 4, 4, 4, 5, 6, 6, 7}, 2));
+    public static void main(String args[]) {
+        System.out.println(new TopKFrequentElement().topKFrequent(new int[]{1, 2, 3, 4, 4, 4, 5, 6, 6, 7}, 2));
     }
 }
